@@ -12,3 +12,8 @@ dependencies = [
 
 [project.scripts]
 fhir-mcp-server = "fhir-mcp-server:main"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.8",
+]
